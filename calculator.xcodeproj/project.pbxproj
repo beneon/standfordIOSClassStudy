@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		009175E91BC1740B00C79689 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009175E81BC1740B00C79689 /* CalculatorBrain.swift */; settings = {ASSET_TAGS = (); }; };
 		00C4D62A1B8EA0190068646E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C4D6291B8EA0190068646E /* AppDelegate.swift */; };
 		00C4D62C1B8EA0190068646E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C4D62B1B8EA0190068646E /* ViewController.swift */; };
 		00C4D62F1B8EA0190068646E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C4D62D1B8EA0190068646E /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009175E81BC1740B00C79689 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorBrain.swift; path = calculator/CalculatorBrain.swift; sourceTree = "<group>"; };
 		00C4D6241B8EA0190068646E /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C4D6281B8EA0190068646E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00C4D6291B8EA0190068646E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		00C4D61B1B8EA0190068646E = {
 			isa = PBXGroup;
 			children = (
+				009175E81BC1740B00C79689 /* CalculatorBrain.swift */,
 				00C4D6261B8EA0190068646E /* calculator */,
 				00C4D63C1B8EA0190068646E /* calculatorTests */,
 				00C4D6251B8EA0190068646E /* Products */,
@@ -156,7 +159,9 @@
 		00C4D61C1B8EA0190068646E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = lucidstudio;
 				TargetAttributes = {
 					00C4D6231B8EA0190068646E = {
@@ -212,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009175E91BC1740B00C79689 /* CalculatorBrain.swift in Sources */,
 				00C4D62C1B8EA0190068646E /* ViewController.swift in Sources */,
 				00C4D62A1B8EA0190068646E /* AppDelegate.swift in Sources */,
 			);
@@ -276,6 +282,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -345,6 +352,7 @@
 				INFOPLIST_FILE = calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beneon.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -356,6 +364,7 @@
 				INFOPLIST_FILE = calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beneon.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -374,6 +383,7 @@
 				);
 				INFOPLIST_FILE = calculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beneon.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculator.app/calculator";
 			};
@@ -389,6 +399,7 @@
 				);
 				INFOPLIST_FILE = calculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beneon.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculator.app/calculator";
 			};
@@ -413,6 +424,7 @@
 				00C4D6451B8EA0190068646E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00C4D6461B8EA0190068646E /* Build configuration list for PBXNativeTarget "calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +433,7 @@
 				00C4D6481B8EA0190068646E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
