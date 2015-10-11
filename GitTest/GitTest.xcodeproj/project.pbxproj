@@ -54,14 +54,22 @@
 		006D47541BC9E2A6001FAA86 /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
-				006D47551BC9E2A6001FAA86 /* AppDelegate.swift */,
+				006D47671BC9E37C001FAA86 /* support file */,
 				006D47571BC9E2A6001FAA86 /* ViewController.swift */,
 				006D47591BC9E2A6001FAA86 /* Main.storyboard */,
+			);
+			path = GitTest;
+			sourceTree = "<group>";
+		};
+		006D47671BC9E37C001FAA86 /* support file */ = {
+			isa = PBXGroup;
+			children = (
+				006D47551BC9E2A6001FAA86 /* AppDelegate.swift */,
 				006D475C1BC9E2A6001FAA86 /* Assets.xcassets */,
 				006D475E1BC9E2A6001FAA86 /* LaunchScreen.storyboard */,
 				006D47611BC9E2A6001FAA86 /* Info.plist */,
 			);
-			path = GitTest;
+			name = "support file";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
