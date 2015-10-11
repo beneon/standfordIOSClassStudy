@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CA6B651BC68C7F0062AF75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA6B641BC68C7F0062AF75 /* AppDelegate.swift */; };
-		00CA6B671BC68C7F0062AF75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA6B661BC68C7F0062AF75 /* ViewController.swift */; };
-		00CA6B6A1BC68C7F0062AF75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CA6B681BC68C7F0062AF75 /* Main.storyboard */; };
-		00CA6B6C1BC68C7F0062AF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00CA6B6B1BC68C7F0062AF75 /* Assets.xcassets */; };
-		00CA6B6F1BC68C7F0062AF75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00CA6B6D1BC68C7F0062AF75 /* LaunchScreen.storyboard */; };
-		00CA6B781BC90EBC0062AF75 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA6B771BC90EBC0062AF75 /* CalculatorBrain.swift */; settings = {ASSET_TAGS = (); }; };
+		006D47561BC9E2A6001FAA86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D47551BC9E2A6001FAA86 /* AppDelegate.swift */; };
+		006D47581BC9E2A6001FAA86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006D47571BC9E2A6001FAA86 /* ViewController.swift */; };
+		006D475B1BC9E2A6001FAA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006D47591BC9E2A6001FAA86 /* Main.storyboard */; };
+		006D475D1BC9E2A6001FAA86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006D475C1BC9E2A6001FAA86 /* Assets.xcassets */; };
+		006D47601BC9E2A6001FAA86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006D475E1BC9E2A6001FAA86 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00CA6B611BC68C7F0062AF75 /* calculator2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00CA6B641BC68C7F0062AF75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00CA6B661BC68C7F0062AF75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00CA6B691BC68C7F0062AF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00CA6B6B1BC68C7F0062AF75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00CA6B6E1BC68C7F0062AF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		00CA6B701BC68C7F0062AF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00CA6B771BC90EBC0062AF75 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorBrain.swift; path = calculator2/CalculatorBrain.swift; sourceTree = "<group>"; };
+		006D47521BC9E2A6001FAA86 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		006D47551BC9E2A6001FAA86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		006D47571BC9E2A6001FAA86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		006D475A1BC9E2A6001FAA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		006D475C1BC9E2A6001FAA86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		006D475F1BC9E2A6001FAA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		006D47611BC9E2A6001FAA86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00CA6B5E1BC68C7F0062AF75 /* Frameworks */ = {
+		006D474F1BC9E2A6001FAA86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,80 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00CA6B581BC68C7F0062AF75 = {
+		006D47491BC9E2A6001FAA86 = {
 			isa = PBXGroup;
 			children = (
-				00CA6B771BC90EBC0062AF75 /* CalculatorBrain.swift */,
-				00CA6B631BC68C7F0062AF75 /* calculator2 */,
-				00CA6B621BC68C7F0062AF75 /* Products */,
+				006D47541BC9E2A6001FAA86 /* GitTest */,
+				006D47531BC9E2A6001FAA86 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		00CA6B621BC68C7F0062AF75 /* Products */ = {
+		006D47531BC9E2A6001FAA86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00CA6B611BC68C7F0062AF75 /* calculator2.app */,
+				006D47521BC9E2A6001FAA86 /* GitTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00CA6B631BC68C7F0062AF75 /* calculator2 */ = {
+		006D47541BC9E2A6001FAA86 /* GitTest */ = {
 			isa = PBXGroup;
 			children = (
-				00CA6B761BC68C8F0062AF75 /* support file */,
-				00CA6B661BC68C7F0062AF75 /* ViewController.swift */,
-				00CA6B681BC68C7F0062AF75 /* Main.storyboard */,
+				006D47551BC9E2A6001FAA86 /* AppDelegate.swift */,
+				006D47571BC9E2A6001FAA86 /* ViewController.swift */,
+				006D47591BC9E2A6001FAA86 /* Main.storyboard */,
+				006D475C1BC9E2A6001FAA86 /* Assets.xcassets */,
+				006D475E1BC9E2A6001FAA86 /* LaunchScreen.storyboard */,
+				006D47611BC9E2A6001FAA86 /* Info.plist */,
 			);
-			path = calculator2;
-			sourceTree = "<group>";
-		};
-		00CA6B761BC68C8F0062AF75 /* support file */ = {
-			isa = PBXGroup;
-			children = (
-				00CA6B641BC68C7F0062AF75 /* AppDelegate.swift */,
-				00CA6B6B1BC68C7F0062AF75 /* Assets.xcassets */,
-				00CA6B6D1BC68C7F0062AF75 /* LaunchScreen.storyboard */,
-				00CA6B701BC68C7F0062AF75 /* Info.plist */,
-			);
-			name = "support file";
+			path = GitTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00CA6B601BC68C7F0062AF75 /* calculator2 */ = {
+		006D47511BC9E2A6001FAA86 /* GitTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00CA6B731BC68C7F0062AF75 /* Build configuration list for PBXNativeTarget "calculator2" */;
+			buildConfigurationList = 006D47641BC9E2A6001FAA86 /* Build configuration list for PBXNativeTarget "GitTest" */;
 			buildPhases = (
-				00CA6B5D1BC68C7F0062AF75 /* Sources */,
-				00CA6B5E1BC68C7F0062AF75 /* Frameworks */,
-				00CA6B5F1BC68C7F0062AF75 /* Resources */,
+				006D474E1BC9E2A6001FAA86 /* Sources */,
+				006D474F1BC9E2A6001FAA86 /* Frameworks */,
+				006D47501BC9E2A6001FAA86 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = calculator2;
-			productName = calculator2;
-			productReference = 00CA6B611BC68C7F0062AF75 /* calculator2.app */;
+			name = GitTest;
+			productName = GitTest;
+			productReference = 006D47521BC9E2A6001FAA86 /* GitTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00CA6B591BC68C7F0062AF75 /* Project object */ = {
+		006D474A1BC9E2A6001FAA86 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = lucidstudio;
 				TargetAttributes = {
-					00CA6B601BC68C7F0062AF75 = {
+					006D47511BC9E2A6001FAA86 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = AT9KC6JRV4;
 					};
 				};
 			};
-			buildConfigurationList = 00CA6B5C1BC68C7F0062AF75 /* Build configuration list for PBXProject "calculator2" */;
+			buildConfigurationList = 006D474D1BC9E2A6001FAA86 /* Build configuration list for PBXProject "GitTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,55 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 00CA6B581BC68C7F0062AF75;
-			productRefGroup = 00CA6B621BC68C7F0062AF75 /* Products */;
+			mainGroup = 006D47491BC9E2A6001FAA86;
+			productRefGroup = 006D47531BC9E2A6001FAA86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00CA6B601BC68C7F0062AF75 /* calculator2 */,
+				006D47511BC9E2A6001FAA86 /* GitTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00CA6B5F1BC68C7F0062AF75 /* Resources */ = {
+		006D47501BC9E2A6001FAA86 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CA6B6F1BC68C7F0062AF75 /* LaunchScreen.storyboard in Resources */,
-				00CA6B6C1BC68C7F0062AF75 /* Assets.xcassets in Resources */,
-				00CA6B6A1BC68C7F0062AF75 /* Main.storyboard in Resources */,
+				006D47601BC9E2A6001FAA86 /* LaunchScreen.storyboard in Resources */,
+				006D475D1BC9E2A6001FAA86 /* Assets.xcassets in Resources */,
+				006D475B1BC9E2A6001FAA86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00CA6B5D1BC68C7F0062AF75 /* Sources */ = {
+		006D474E1BC9E2A6001FAA86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CA6B781BC90EBC0062AF75 /* CalculatorBrain.swift in Sources */,
-				00CA6B671BC68C7F0062AF75 /* ViewController.swift in Sources */,
-				00CA6B651BC68C7F0062AF75 /* AppDelegate.swift in Sources */,
+				006D47581BC9E2A6001FAA86 /* ViewController.swift in Sources */,
+				006D47561BC9E2A6001FAA86 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		00CA6B681BC68C7F0062AF75 /* Main.storyboard */ = {
+		006D47591BC9E2A6001FAA86 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00CA6B691BC68C7F0062AF75 /* Base */,
+				006D475A1BC9E2A6001FAA86 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		00CA6B6D1BC68C7F0062AF75 /* LaunchScreen.storyboard */ = {
+		006D475E1BC9E2A6001FAA86 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00CA6B6E1BC68C7F0062AF75 /* Base */,
+				006D475F1BC9E2A6001FAA86 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		00CA6B711BC68C7F0062AF75 /* Debug */ = {
+		006D47621BC9E2A6001FAA86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		00CA6B721BC68C7F0062AF75 /* Release */ = {
+		006D47631BC9E2A6001FAA86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,24 +245,24 @@
 			};
 			name = Release;
 		};
-		00CA6B741BC68C7F0062AF75 /* Debug */ = {
+		006D47651BC9E2A6001FAA86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = calculator2/Info.plist;
+				INFOPLIST_FILE = GitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = beneon.calculator2;
+				PRODUCT_BUNDLE_IDENTIFIER = beneon.GitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		00CA6B751BC68C7F0062AF75 /* Release */ = {
+		006D47661BC9E2A6001FAA86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = calculator2/Info.plist;
+				INFOPLIST_FILE = GitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = beneon.calculator2;
+				PRODUCT_BUNDLE_IDENTIFIER = beneon.GitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -282,25 +270,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00CA6B5C1BC68C7F0062AF75 /* Build configuration list for PBXProject "calculator2" */ = {
+		006D474D1BC9E2A6001FAA86 /* Build configuration list for PBXProject "GitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00CA6B711BC68C7F0062AF75 /* Debug */,
-				00CA6B721BC68C7F0062AF75 /* Release */,
+				006D47621BC9E2A6001FAA86 /* Debug */,
+				006D47631BC9E2A6001FAA86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00CA6B731BC68C7F0062AF75 /* Build configuration list for PBXNativeTarget "calculator2" */ = {
+		006D47641BC9E2A6001FAA86 /* Build configuration list for PBXNativeTarget "GitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00CA6B741BC68C7F0062AF75 /* Debug */,
-				00CA6B751BC68C7F0062AF75 /* Release */,
+				006D47651BC9E2A6001FAA86 /* Debug */,
+				006D47661BC9E2A6001FAA86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 00CA6B591BC68C7F0062AF75 /* Project object */;
+	rootObject = 006D474A1BC9E2A6001FAA86 /* Project object */;
 }

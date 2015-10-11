@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>calculator2.xcscheme</key>
+		<key>GitTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>00CA6B601BC68C7F0062AF75</key>
+		<key>006D47511BC9E2A6001FAA86</key>
 		<dict>
 			<key>primary</key>
 			<true/>

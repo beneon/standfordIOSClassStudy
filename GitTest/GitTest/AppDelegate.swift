@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  calculator2
+//  GitTest
 //
-//  Created by zheng junming on 15/10/8.
+//  Created by zheng junming on 15/10/11.
 //  Copyright © 2015年 lucidstudio. All rights reserved.
 //
 
